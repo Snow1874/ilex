@@ -1140,6 +1140,7 @@ p {
 }
 
 #main .recruit-flow {
+  overflow: hidden;
   position: relative;
   background: url(../img/flow_bg_lightblue.png) no-repeat;
   background-size: cover;
@@ -1399,33 +1400,3 @@ p {
   height: auto;
 }
 /*# sourceMappingURL=style.css.map */
-
-/* 近藤追加 */
-#main .recruit_list .inner .category .title {
-  font-size: 15px;
-}
-
-@media screen and (max-width: 420px) {
-  #main .map-section .map-img {
-    width: 108%;
-    margin-left: -37px;
-  }
-
-  #main .features .feature-content .feature-txt-area .box-1 {
-    height: 25%;
-  }
-  #main .features .feature-content .feature-txt-area .box-2 {
-    height: 21%;
-  }
-
-  #main .features {
-    max-height: 1340px;
-  }
-  #main .recruit_list .recruit_list_title {
-    padding-bottom: 20px;
-  }
-
-  #main .recruit_list .inner .category ul {
-    margin-bottom: 0;
-  }
-}
